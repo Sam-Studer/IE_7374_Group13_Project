@@ -1,0 +1,17 @@
+#Keeps track of which libraries to import for model creation and testing
+
+pandas
+numpy
+scikit-learn
+matplotlib
+jupyter
+torch
+transformers
+accelerate
+datasets
+evaluate
+rouge-score
+bert-score
+sacrebleu
+pyyaml
+tqdm

@@ -1,0 +1,48 @@
+#Taken from AI, prevents GitHub from uploading large datasets,model files, secrets, and temporary notebook files.
+
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment files and secrets
+.env
+*.key
+*.pem
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Raw datasets
+data/raw/*.csv
+
+# Large processed datasets
+data/processed/*.csv
+data/processed/*.parquet
+
+# Model weights and checkpoints
+models/checkpoints/
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# Generated outputs
+outputs/generated_reports/*
+outputs/evaluation/*
+outputs/figures/*
+
+# Keep placeholder files
+!outputs/generated_reports/.gitkeep
+!outputs/evaluation/.gitkeep
+!outputs/figures/.gitkeep
+
+# Operating system files
+.DS_Store
+Thumbs.db
